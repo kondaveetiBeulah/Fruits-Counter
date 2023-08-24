@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.fruits-counter-container {
+  background-color: #ffd569;
+  height: 100vh;
+  padding: 20px;
+}
+.count {
+  color: #ffd569;
+}
+.fruits-counter {
+  background-color: #ffffff;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.counters-fruit-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+.fruit-image {
+  height: 250px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  padding: 5px;
+}
+.button {
+  height: 35px;
+  width: 100px;
+  background-color: #007bff;
+  color: white;
+  font-family: 'Roboto';
+  border-radius: 5px;
+  border-width: 0px;
+  cursor: pointer;
+}
+.counter-control {
+  display: flex;
+  flex-direction: column;
+}
